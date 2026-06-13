@@ -12,5 +12,5 @@ async def info(ctx):
     embed = discord.Embed(title="SmokeUtils Bot Information", color=discord.Color.blue())
     embed.add_field(name="Servers:", value=server_count, inline=False)
     embed.add_field(name="Latency:", value=f"{latency}ms", inline=False)
-    embed.add_field(name="made with ❤️ by:", value="VOXELWARE Studios", inline=False)
+    embed.add_field(name="made with ❤️ by:", value="membercatcousin", inline=False)
     await ctx.reply(embed=embed)
