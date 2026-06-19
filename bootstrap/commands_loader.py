@@ -5,13 +5,11 @@
 from commands.utils.ping import *
 from commands.utils.info import *
 from commands.utils.servericon import *
-from bootstrap.whitelist_check import *
 
 # community commands
 from commands.community.dataj import *
 from commands.community.tjwt import *
 from commands.community.welcomer import *
-from commands.community.whitelist import *
 
 # fun commands
 from commands.fun.skull import *
