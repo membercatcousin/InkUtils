@@ -25,6 +25,5 @@ async def on_ready():
     # Called once when the bot successfully connects to Discord.
     global server_count
     server_count = len(bot.guilds)
-    await bot.change_presence(status=discord.Status.do_not_disturb, activity=discord.Game(f'SmokeUtils Community Edition {version}'))
+    await bot.change_presence(status=discord.Status.do_not_disturb, activity=discord.Game(f'InkUtils {version}'))
     print("running")
-
