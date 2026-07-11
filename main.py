@@ -7,7 +7,6 @@ from bootstrap.intents import *
 from discord.ext import commands
 from bootstrap.bot_boot import *
 from bootstrap.get_token import get_token
-from bootstrap.is_ready import *
 from bootstrap.commands_loader import *
 
 # Load the token from disk and start the bot.

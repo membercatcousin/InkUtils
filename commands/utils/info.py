@@ -2,7 +2,6 @@ import discord
 from bootstrap.intents import *
 from discord.ext import commands
 from bootstrap.bot_boot import *
-from bootstrap.is_ready import *
 
 # Show basic bot statistics such as latency and server count.
 @bot.hybrid_command(name="info", description="Give information about the bot")

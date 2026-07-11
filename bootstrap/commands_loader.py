@@ -7,7 +7,7 @@ from commands.utils.info import *
 from commands.utils.servericon import *
 
 # community commands
-from commands.community.dataj import *
+from commands.community.dataja import *
 from commands.community.tjwt import *
 from commands.community.welcomer import *
 
@@ -21,6 +21,4 @@ from commands.fun.giveaway import *
 # moderation commands
 from commands.moderation.kick import *
 from commands.moderation.ban import *
-from commands.moderation.unban import *
 from commands.moderation.mute import *
-from commands.moderation.unmute import *
