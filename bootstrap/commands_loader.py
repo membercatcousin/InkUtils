@@ -15,6 +15,7 @@ from commands.community.welcomer import *
 from commands.fun.skull import *
 from commands.fun.coin import *
 from commands.fun.calc import *
+from commands.fun.om import *
 from commands.fun.counting import *
 from commands.fun.giveaway import *
 
