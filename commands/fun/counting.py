@@ -26,10 +26,6 @@ async def disable(ctx: commands.Context):
 
 @bot.event
 async def on_message(message):
-    # Ignore messages sent by bots.
-    if message.author.bot:
-        return
-    
     # Only proceed if message is in a guild.
     if message.guild is None:
         return
