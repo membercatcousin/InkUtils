@@ -26,13 +26,9 @@ async def disable(ctx: commands.Context):
 
 @bot.event
 async def on_message(message):
-    # Only proceed if message is in a guild.
-    if message.guild is None:
-        return
+
     
     guild_id = message.guild.id
-    
-    # Counting system logic
     ch_id = get_counting_channel_id(guild_id)
     # Only process counting messages in the configured channel.
     if ch_id and message.channel.id == ch_id:
@@ -56,5 +52,5 @@ async def on_message(message):
             # Remove any non-integer messages from the counting channel.
             await message.delete()
     
-    # Continue processing commands after message handling.
+    # Continue processing commands after counting handling.
     await bot.process_commands(message)
