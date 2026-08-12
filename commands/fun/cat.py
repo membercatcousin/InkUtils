@@ -16,6 +16,8 @@ cats = [
     "https://cataas.com/cat/says/nya",
     "https://cataas.com/cat/says/nyaa",
     "https://cataas.com/cat/cute",
+    "https://cataas.com/cat/duo",
+    "https://cataas.com/cat/gif"
 ]
 
 @bot.hybrid_command(name="cat", description="Send a random cat picture")
