@@ -8,7 +8,7 @@ from bootstrap.bot_boot import *
 async def info(ctx):
     latency = round(bot.latency * 1000)
     server_count = len(bot.guilds)
-    embed = discord.Embed(title="SmokeUtils Bot Information", color=discord.Color.blue())
+    embed = discord.Embed(title="InkUtils Bot Information", color=discord.Color.blue())
     embed.add_field(name="Servers:", value=server_count, inline=False)
     embed.add_field(name="Latency:", value=f"{latency}ms", inline=False)
     embed.add_field(name="made with ❤️ by:", value="membercatcousin", inline=False)
