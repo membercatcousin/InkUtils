@@ -12,7 +12,7 @@ cats = [
     "https://cataas.com/cat/says/hello",
     "https://cataas.com/cat/says/meow",
     "https://cataas.com/cat/says/purr",
-    "https://cataas.com/cat/says/miw",
+    "https://cataas.com/cat/says/mrrow",
     "https://cataas.com/cat/says/nya",
     "https://cataas.com/cat/says/nyaa",
     "https://cataas.com/cat/cute",
